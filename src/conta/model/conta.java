@@ -91,7 +91,7 @@ public class conta {
 		case 2:
 			tipoConta = "Conta poupança";
 			break;
-		}
+		} //teste
 		
 		System.out.println("*******************************");
 		System.out.println("Dados da Conta");
