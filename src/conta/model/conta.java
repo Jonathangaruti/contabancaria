@@ -9,6 +9,8 @@ public class conta {
 	private float saldo;
 	
 	
+	
+	
 	public conta(int numero, int agencia, int tipo, String titular, float saldo) {
 		this.numero = numero;
 		this.agencia = agencia;
@@ -71,6 +73,7 @@ public class conta {
 		
 		if(this.saldo < valor)
 			return false;
+		System.out.println("\n Saldo insuficiente para ser sacado");
 		this.setSaldo(this.saldo - valor);
 		return true;
 	}
@@ -91,7 +94,7 @@ public class conta {
 		case 2:
 			tipoConta = "Conta poupança";
 			break;
-		} //teste
+		}
 		
 		System.out.println("*******************************");
 		System.out.println("Dados da Conta");
