@@ -3,6 +3,7 @@ package conta.model;
 public class contaCorrente extends conta{
 
 	private float limite;
+	
 	public contaCorrente(int numero, int agencia, int tipo, String titular, float saldo, float limite) {
 		super(numero, agencia, tipo, titular, saldo);
 		this.limite = limite; 
@@ -23,6 +24,12 @@ public class contaCorrente extends conta{
 		this.setSaldo(this.getSaldo() - valor);
 		System.out.println("\n valor sacado com sucesso!");
 		return true;
+	}
+	
+	@Override
+	public void visualizar() {
+		super.visualizar();
+		System.out.println("Limite de crédito: " + this.limite);
 	}
 	
 }
