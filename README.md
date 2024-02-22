@@ -9,6 +9,4 @@ Task 02: Implementação do pacote "conta.model".
 
 Task 03: Criação dos tipos de contas "Corrente" e "Poupança".
 
-Task 04: Ajustes no Menu.
-
-Task 05: Adição da interface "ContaRepository" ao projeto.
+Task 04: Ajustes no Menu e Adição da interface "ContaRepository" ao projeto.
